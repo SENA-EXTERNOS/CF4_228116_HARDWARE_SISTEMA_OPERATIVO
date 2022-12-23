@@ -32,7 +32,7 @@
     .row.justify-content-center.mb-5
       .col-10.col-lg-3.mb-4
         figure
-          img(src="@/assets/curso/temas/tema1/img2.svg", alt="alt")     
+          img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt")     
 
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris2")

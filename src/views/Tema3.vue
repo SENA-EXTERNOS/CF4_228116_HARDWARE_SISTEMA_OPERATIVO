@@ -197,7 +197,7 @@
           figure
             img(src="@/assets/curso/temas/tema3/img6.svg", alt="alt")
         
-        .col-lg-8
+        .col-lg-8.mt-4
           h4 Expansión de la definición
           p Podemos simplificar la explicación de las siguientes formas: 
           ul.lista-ul--color
@@ -231,9 +231,9 @@
                   h3.mb-1.texto-blanco Modo de usuario y modo kernel - Windows drivers | Microsoft Learn 
                   p.texto-blanco Para obtener más información sobre los modos de procesador, ver el siguiente enlace
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton--sm.color-acento-contenido.me-3(href="https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode" target="_blank")
                     span Descargar
-                    i.fas.fa-file-download
+                    i.fas.fa-link
 
 
 </template>

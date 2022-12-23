@@ -11,30 +11,30 @@
       p Los sistemas operativos utilizan tres herramientas que se clasifican en:
 
     .row.mb-5
-      .tarjeta.SlyderA-bgr.p-3.p-lg-4
+      .tarjeta.SlyderA-bgr.p-3.p-lg-5
         SlyderA(tipo="b")
           .row
-            .col-lg-5
+            .col-lg-5.mt-5
               h5 Herramientas de aplicación
               p Se refiere a todo programa que incluya un sistema operativo y que cada usuario pueda desarrollar todas las actividades. Por ejemplo, diseñar dibujos, realizar operaciones, etc. 
 
-            .col-lg-7
+            .col-lg-7.mt-3
               figure
                 img(src="@/assets/curso/temas/tema5/img1.svg", alt="alt")
 
           .row
-            .col-lg-5
+            .col-lg-5.mt-5
               h5 Herramientas de configuración
               p Se asocia a los cuadros de información que le permiten a los usuario conocer las características específicas de cada sistema (equipo) y que puedan ser modificados algunos de los dispositivos hardware, tales como: teclado, pantalla mouse, entre otros.
               p Panel de control: en esta configuración se conectan los dispositivos del sistema computacional, desde el cual se pueden modificar e, incluso, añadir nuevos dispositivos.
 
 
-            .col-lg-7
+            .col-lg-7.mt-3
               figure
                 img(src="@/assets/curso/temas/tema5/img2.svg", alt="alt")
 
           .row
-            .col-lg-5
+            .col-lg-5.mt-5
               h5 Herramientas de optimización
               p Se asocia a los programas y aplicaciones que permitan mejorar el rendimiento del sistema como los mencionados a continuación: 
               ul.lista-ul--color.p-3.plg-lg-5
@@ -51,7 +51,7 @@
                   i.fas.fa-circle.color-vineta1
                   | Restaurador del sistema.
 
-            .col-lg-7
+            .col-lg-7.mt-3
               figure
                 img(src="@/assets/curso/temas/tema5/img3.svg", alt="alt")
 
