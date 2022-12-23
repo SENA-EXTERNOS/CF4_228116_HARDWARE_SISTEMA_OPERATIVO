@@ -1,19 +1,216 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 2s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 31%
+    right: 77%
+    width: 12%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 6s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 46%
+    right: 88.5%
+  &-3
+    animation: myAnim 10s linear 0s infinite alternate-reverse forwards
+    position: absolute
+    top: 11%
     right: 30%
+    z-index: -1
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(67px)
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateY(10px)
+
+  100%
+    transform: translateY(0px)
+
+@keyframes myAnim 
+	0%,
+	50%,
+	100%
+		opacity: 1
+
+
+	25%,
+	75% 
+		opacity: 0
+
+
+
+.banner-principal__img
+  z-index: 1
+
+/////// Introduccion -----------------------
+
+.tarjeta--azul1
+  background-color: #0B5999
+
+.img1-intro
+  position: relative
+  max-width: 300%
+  width: 190%
+  margin-top: 40%
+  right: 20%
+  @media (max-width: 500px)
+    width: 100%
+    margin-top: 0%
+    right: 0%
+
+
+//////////// Tema 1 ---------------------
+
+// viñetas --------------
+
+.color-vineta1
+  color: #12263F !important
+  font-size: 8px
+  margin-top: 3px
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta--gris2
+  background-color: #C3CFD9
+
+.acordion__accion__btn--a
+  background-color: #0B5999 !important
+
+.acordion__activo
+  background-color: #DBEDFD !important
+
+.fa-minus:before, .fa-plus:before
+    color: #FFFFFF
+
+.tarjeta--hr
+  border-bottom: 2px solid #E8E8E8
+  border-bottom-left-radius: 0px !important
+  border-bottom-right-radius: 0px !important
+
+.acordion__activo
+  border-bottom-left-radius: 20px !important
+  border-bottom-right-radius: 20px !important
+  border-bottom: 2px solid #DBEDFD
+
+
+/// cajon color
+
+.cajon.color-primario 
+  background-color: #D2F3F8
+  z-index: 1
+
+
+
+///// Tema 2 ------------------
+
+/// .SlyderA--------------------
+
+.SlyderA-bgr
+  background-image: url("../assets/curso/temas/fondo-slider.png") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  margin-top: -16px
+
+
+.slyder-a__bullets__item--active 
+    background-color: #1B3F5E !important
+    border-color: #1B3F5E
+
+.slyder-a__bullets__item
+  background-color: #8FA6BA
+  border-color: #8FA6BA
+
+
+/////////// Tema 3 -----------------
+
+.img2-tm3
+  position: relative
+  max-width: 150%
+  width: 125%
+  right: 15%
+  margin-top: 10%
+  z-index: 0
+
+//custom lineaTiempoD------------------------------------------
+//color item inactivo
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #C3CFD9 !important
+//color botones inactivos
+.tarjeta--gris 
+  background-color: #C3CFD9   
+//color item activo
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris 
+  background-color: #DBEDFD !important 
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #C1D5E5 !important
+
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -2px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/fondo.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.bg2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -3px
+    width: calc( 100% + 180px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/fondo2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.img8-tm3
+  width: 80%
+  position: relative
+  left: 15%
+  @media (max-width: 500px)
+    width: 100%
+    left: 0%
+
+.color-degradado
+  background: linear-gradient(0deg, #112A74 20%, #469EE4 100%)
+
+
+//////// Tema 6 -----------
+
+.img1-tm6
+  position: relative
+  max-width: 150%
+  width: 125%
+  right: 15%
+  margin-top: 10%
+  z-index: 0
+  @media (max-width: 500px)
+    max-width: 150%
+    width: 100%
+    right: 0%
+    margin-top: 10%
