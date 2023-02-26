@@ -39,21 +39,6 @@ export default {
         numero: '1',
         titulo: 'Configurar el sistema operativo según términos de referencia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: '1.1 Sistemas operativos por servicios (visión externa):',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              '1.2 Sistemas operativos por la forma de ofrecer sus servicios',
-            hash: 't_1_2',
-          },
-        ],
       },
 
       {
@@ -171,7 +156,7 @@ export default {
     {
       termino: '<i>Batch</i>',
       significado:
-        'en DOS, OS/2 y Microsoft Windows, un archivo <i>batch</i> es un archivo de procesamiento por lotes. Se trata de archivos de texto sin formato, guardados con la extensión .BAT que contienen un conjunto de instrucciones MS-DOS.',
+        'en DOS, OS/2 y Microsoft Windows, un archivo batch es un archivo de procesamiento por lotes. Se trata de archivos de texto sin formato, guardados con la extensión .BAT que contienen un conjunto de instrucciones MS-DOS.',
     },
     {
       termino: 'CPU',

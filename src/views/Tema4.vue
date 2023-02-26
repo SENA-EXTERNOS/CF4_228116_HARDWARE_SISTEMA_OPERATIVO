@@ -5,13 +5,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Software de virtualización
+      h1 #[em Software] de virtualización
 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-4
-        p Este software es flexible y ágil permitiendo escalabilidad en la infraestructura de TI, además, genera ahorro de propiedad y operativos. También, este permite mayor rendimiento de los recursos y la automatización de las operaciones, simplificando la gestión de la infraestructura. 
+        p Este #[em software] es flexible y ágil permitiendo escalabilidad en la infraestructura de TI, además, genera ahorro de propiedad y operativos. También, este permite mayor rendimiento de los recursos y la automatización de las operaciones, simplificando la gestión de la infraestructura.
         p Debido a las limitaciones de los servidores x86, muchas organizaciones de tecnologías de la información deben recurrir al uso de múltiples servidores, los cuales tienen un funcionamiento muy por debajo de su capacidad, dado que deben responder a las necesidades actuales de almacenamiento y procesamiento. Esta situación genera una gran ineficiencia y unos costes operativos excesivos.
-        p La virtualización utiliza el software para imitar las características del hardware y crear un sistema informático virtual. Esto permite a las organizaciones de TI ejecutar más de un sistema virtual, y múltiples sistemas operativos y aplicaciones, en un solo servidor.
+        p La virtualización utiliza el #[em software] para imitar las características del #[em hardware] y crear un sistema informático virtual. Esto permite a las organizaciones de TI ejecutar más de un sistema virtual, y múltiples sistemas operativos y aplicaciones, en un solo servidor.
 
       .col-lg-4(data-aos="fade-right")
         figure
@@ -28,38 +28,38 @@
 
     .row.mb-5
       p Existen dos tipos de virtualización, estos son:
-  
+
     .row.justify-content-center.mb-5
       .col-10.col-lg-3.mb-4
         figure
-          img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt")     
+          img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt")
 
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris2")
           .row(titulo="Virtualización de servidores")
             p La virtualización de los servidores posibilita la ejecución de varios sistemas operativos en un solo servidor físico, a través del uso de máquinas virtuales, las cuales ofrecen un elevado rendimiento. Entre las ventajas principales del uso de máquinas virtuales se tienen:
             ul.lista-ul--color
-              li 
+              li
                 i.fas.fa-circle.color-vineta1
                 | Mayor eficiencia del entorno de TI.
-              li 
+              li
                 i.fas.fa-circle.color-vineta1
                 | Reducción de los costes operativos.
-              li 
+              li
                 i.fas.fa-circle.color-vineta1
                 | Mayor velocidad de las cargas de trabajo.
-              li 
+              li
                 i.fas.fa-circle.color-vineta1
                 | Mejoramiento del rendimiento de las aplicaciones.
-              li 
+              li
                 i.fas.fa-circle.color-vineta1
                 | Mayor disponibilidad del servidor.
-              li 
+              li
                 i.fas.fa-circle.color-vineta1
                 | Eliminación de la complejidad y la proliferación de servidores.
 
           .row(titulo="Virtualización de red")
-            p La virtualización de la red posibilita la ejecución de aplicación en una red virtual de la misma forma en la que se ejecutan en una red física. Además, presenta un mayor número de ventajas operativas y una total independencia del hardware. De esta forma, la virtualización de la red muestra los dispositivos y servicios de red lógicos (puertos lógicos, conmutadores, enrutadores, cortafuegos, equilibradores de carga, VPN, entre otros.) a las cargas de trabajo vinculadas.
+            p La virtualización de la red posibilita la ejecución de aplicación en una red virtual de la misma forma en la que se ejecutan en una red física. Además, presenta un mayor número de ventajas operativas y una total independencia del #[em hardware]. De esta forma, la virtualización de la red muestra los dispositivos y servicios de red lógicos (puertos lógicos, conmutadores, enrutadores, cortafuegos, equilibradores de carga, VPN, entre otros.) a las cargas de trabajo vinculadas.
 
 
 

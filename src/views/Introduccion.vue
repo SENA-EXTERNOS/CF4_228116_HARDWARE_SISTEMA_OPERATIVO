@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
@@ -22,12 +22,13 @@
                   .col-lg-2
                   .col-lg-10
                     p Aprendiz, esta etapa está diseñada para que aprenda e identifique de manera clara y precisa cómo funcionan estos subsistemas operativos en cada computador y los componentes que lo conforman dentro de los sistemas de infraestructura T.I.
-                    p El sistema operativo se describe como la parte que conforma el software donde se dirige y se coordinan todas esas aplicaciones y servicios que cada usuario dispondrá a utilizar en cada computador. Por esta razón, es fundamental e importante el sistema operativo, debido a que se trata de aquellos programas que permiten controlar los aspectos esenciales del sistema. 
-                    p Este término se asocia el nombre de kernels o núcleos, donde se ejecuta de forma privilegiada en comparación a lo que comprende el resto de software, sin dejar que cualquier programa vaya a modificar la configuración sobre el que genere un daño sobre su funcionamiento actual.
+                    p El sistema operativo se describe como la parte que conforma el software donde se dirige y se coordinan todas esas aplicaciones y servicios que cada usuario dispondrá a utilizar en cada computador. Por esta razón, es fundamental e importante el sistema operativo, debido a que se trata de aquellos programas que permiten controlar los aspectos esenciales del sistema.
+                    p Este término se asocia al nombre de kernels o núcleos, donde se ejecuta de forma privilegiada en comparación a lo que comprende el resto de #[em software], sin dejar que cualquier programa vaya a modificar la configuración sobre el que genere un daño en su funcionamiento actual.
+
 
     .row.justify-content-center.mb-5
       .col-lg-11(data-aos="fade-left")
-        p A continuación, lo invitamos a ver el video introductorio donde podrá observar, de manera general, todas las temáticas que estudiará en este componente formativo.  
+        p A continuación, lo invitamos a ver el video introductorio donde podrá observar, de manera general, todas las temáticas que estudiará en este componente formativo.
 
     .row.justify-content-center.mb-5
       .col-lg-11
