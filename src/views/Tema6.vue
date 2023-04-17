@@ -35,7 +35,7 @@
           img(src="@/assets/curso/temas/tema6/img2.svg", alt="alt")
 
       .col-lg-6
-        p Los sistemas operativos son muy importantes debido a que permiten facilitar de forma eficaz y eficiente distintas tareas. Entre los cuales existen diferentes clases de sistemas operativos entre los más conocidos están Linux y Windows. La base fundamental de cada sistema operativo es tener un software libre que genere confianza entre el usuario y la máquina dentro de las configuraciones para coordinar las actividades llevando a cabo el intercambio de los recursos y actuando como estación para las aplicaciones que se ejecutan dentro de la máquina
+        p Los sistemas operativos son muy importantes debido a que permiten facilitar de forma eficaz y eficiente distintas tareas. Entre los cuales existen diferentes clases de sistemas operativos entre los más conocidos están Linux y Windows. La base fundamental de cada sistema operativo es tener un #[em software] libre que genere confianza entre el usuario y la máquina dentro de las configuraciones para coordinar las actividades llevando a cabo el intercambio de los recursos y actuando como estación para las aplicaciones que se ejecutan dentro de la máquina
 
     .row.justify-content-center.mb-5
       .col-lg-8

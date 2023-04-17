@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Hardware y sistema operativo',
+    componenteFormativo: '<em>Hardware</em> y sistema operativo',
     descripcionCurso:
-      'El sistema operativo permite interactuar comunicando al usuario y la máquina permitiendo una mejor ejecución de los programas usados en cada dispositivo, brindando una visión general de la evolución de la tecnología aplicada en cada computador entendiendo los conceptos del sistema, servicio y el funcionamiento como tal de cada programa para la configuración de sistemas operativos dependiendo del hardware y cada referencia utilizada para su aplicación.',
+      'El sistema operativo permite interactuar comunicando al usuario y la máquina permitiendo una mejor ejecución de los programas usados en cada dispositivo, brindando una visión general de la evolución de la tecnología aplicada en cada computador entendiendo los conceptos del sistema, servicio y el funcionamiento como tal de cada programa para la configuración de sistemas operativos dependiendo del <em>hardware</em> y cada referencia utilizada para su aplicación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -59,7 +59,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Software de virtualización',
+        titulo: '<em>Software</em> de virtualización',
         desarrolloContenidos: true,
       },
       {

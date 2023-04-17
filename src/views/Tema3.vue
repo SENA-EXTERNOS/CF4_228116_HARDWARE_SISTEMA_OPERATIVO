@@ -243,7 +243,7 @@
       .row.p-4
         .col-lg-8
           h4 Controladores de #[em software]
-          p Estos controladores no están asociados a los dispositivos de #[em hardware]. Así, son controladores exclusivos del sistema. Por ejemplo, en el caso en el que se requiera acceder a las estructuras de datos principales del sistema operativo, es necesario garantizar el acceso mediante la ejecución de un código en modo kernel. Para lograr esto, entonces, se debe dividir la herramienta en dos componentes. El componente número uno se puede ejecutar en el modo usuario y, por lo tanto, va a presentar una interfaz de usuario. El componente número dos se va a ejecutar en el modo kernel y, por ende, puede acceder a los datos principales que hay en el sistema operativo. Se debe tener en cuenta que el componente número uno se denomina aplicación, mientras que el número dos se llama “controlador de #[em software]” y, tal y como se puede ver, no tiene relación alguna con un dispositivo de #[em hardware].  A continuación, se muestra una aplicación en modo de usuario que se comunica con un controlador de #[em software] en modo kernel.
+          p Estos controladores no están asociados a los dispositivos de #[em hardware]. Así, son controladores exclusivos del sistema. Por ejemplo, en el caso en el que se requiera acceder a las estructuras de datos principales del sistema operativo, es necesario garantizar el acceso mediante la ejecución de un código en modo #[em kernel]. Para lograr esto, entonces, se debe dividir la herramienta en dos componentes. El componente número uno se puede ejecutar en el modo usuario y, por lo tanto, va a presentar una interfaz de usuario. El componente número dos se va a ejecutar en el modo #[em kernel] y, por ende, puede acceder a los datos principales que hay en el sistema operativo. Se debe tener en cuenta que el componente número uno se denomina aplicación, mientras que el número dos se llama “controlador de #[em software]” y, tal y como se puede ver, no tiene relación alguna con un dispositivo de #[em hardware].  A continuación, se muestra una aplicación en modo de usuario que se comunica con un controlador de #[em software] en modo #[em kernel.]
 
         .col-lg-4
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -263,7 +263,7 @@
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.texto-blanco Modo de usuario y modo kernel - Windows drivers | Microsoft Learn
+                  h3.mb-1.texto-blanco Modo de usuario y modo #[em kernel] - Windows drivers | Microsoft Learn
                   p.texto-blanco Para obtener más información sobre los modos de procesador, ver el siguiente enlace
                 .col-sm-auto
                   a.boton--sm.color-acento-contenido.me-3(href="https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode" target="_blank")
