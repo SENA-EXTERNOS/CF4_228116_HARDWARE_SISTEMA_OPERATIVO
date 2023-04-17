@@ -36,8 +36,7 @@
           p Cuando los equipos normalmente se configuran con sistemas operativos monopuesto, se conectan y son validados con el servidor para empezar a trabajar en la red.
 
 
-    .titulo-segundo.color-primario.my-5(data-aos="fade-left")
-      h2 Instalación
+    h2 Instalación
 
     .row.mb-5
       p A continuación, se describe el paso a paso de instalación de drivers:
@@ -139,9 +138,6 @@
               ul.lista-ul--color.ps-3.fa-ul
                 li
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | (usado como parte de la solución de gestión Intel ASF)
-                li
-                  i.fas.fa-circle.color-vineta1.fa-li
                   | Desde el Explorador de Windows, vaya a la carpeta windows\me\driver.
                 li
                   i.fas.fa-circle.color-vineta1.fa-li
@@ -193,12 +189,16 @@
             p Finalmente, recuerde reiniciar la estación de trabajo.
 
     .bg1
-      .row.p-4
+      .row.p-4.align-items-center
         .col-lg-8
-          h4 Control de drivers
+          h4 Control de #[em drivers]
           p De manera general, se puede entender un controlador como un componente del #[em software], el cual posibilita que el sistema operativo se comunique con un dispositivo. A continuación, se mostrará un ejemplo: supongamos que una aplicación requiere leer unos datos que se encuentran en un dispositivo. Para cumplir esta acción, la aplicación debe llamar a una función, la cual debe ser implementada por el sistema operativo y, luego, este sistema llama a una función, que debe ser implementada por el controlador. Este controlador fue escrito por la misma empresa que fabricó y diseñó el dispositivo y, por ende, puede establecer comunicación clara con el #[em hardware] del dispositivo con el objetivo de obtener los datos. De esta manera, una vez que el controlador logra la obtención de los datos que se encontraban en el dispositivo, entonces, devuelve los datos al sistema operativo y este, a su vez, los devuelve hasta la aplicación.
 
         .col-lg-4
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 1 
+            br
+            span.fst-italic Aplicación 
           figure
             img(src="@/assets/curso/temas/tema3/img4.svg", alt="alt")
 
@@ -210,17 +210,21 @@
           ul.lista-ul--color
             li
               i.fas.fa-circle.color-vineta1
-              | Si bien la empresa que diseñó el dispositivo puede ser la misma que crea el controlador, muchas veces, el dispositivo ha sido diseñado según el estándar de #[em hardware] publicado. Por lo tanto, el controlador puede ser diseñado por otra empresa.
+              p.mb-0 Si bien la empresa que diseñó el dispositivo puede ser la misma que crea el controlador, muchas veces, el dispositivo ha sido diseñado según el estándar de #[em hardware] publicado. Por lo tanto, el controlador puede ser diseñado por otra empresa.
             li
               i.fas.fa-circle.color-vineta1
-              | Existen controladores que no establecen comunicación directa con un dispositivo. Así, por ejemplo, para una solicitud E/S como la lectura de datos, pueden existir múltiples controladores, los cuales se superponen para participar en la solicitud realizada. El primer controlador participante se ubica en la parte superior de la pila y el último, en la parte inferior. Es importante tener en cuenta que algunos de los controladores pueden involucrarse a través de la modificación del formato de la solicitud. Estos controladores que cambian el formato no establecen comunicación directa con el dispositivo, sino que se relacionan con otros controladores que están en niveles más bajos de la pila.
+              p.mb-0 Existen controladores que no establecen comunicación directa con un dispositivo. Así, por ejemplo, para una solicitud E/S como la lectura de datos, pueden existir múltiples controladores, los cuales se superponen para participar en la solicitud realizada. El primer controlador participante se ubica en la parte superior de la pila y el último, en la parte inferior. Es importante tener en cuenta que algunos de los controladores pueden involucrarse a través de la modificación del formato de la solicitud. Estos controladores que cambian el formato no establecen comunicación directa con el dispositivo, sino que se relacionan con otros controladores que están en niveles más bajos de la pila.
 
         .col-lg-5.mt-5
           figure
             img(src="@/assets/curso/temas/tema3/img5.svg", alt="alt")
 
-      .row.p-4
+      .row.p-5.align-items-center
         .col-lg-4
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 2. 
+            br
+            span.fst-italic Controladores 
           figure
             img(src="@/assets/curso/temas/tema3/img6.svg", alt="alt")
 
@@ -242,6 +246,10 @@
           p Estos controladores no están asociados a los dispositivos de #[em hardware]. Así, son controladores exclusivos del sistema. Por ejemplo, en el caso en el que se requiera acceder a las estructuras de datos principales del sistema operativo, es necesario garantizar el acceso mediante la ejecución de un código en modo kernel. Para lograr esto, entonces, se debe dividir la herramienta en dos componentes. El componente número uno se puede ejecutar en el modo usuario y, por lo tanto, va a presentar una interfaz de usuario. El componente número dos se va a ejecutar en el modo kernel y, por ende, puede acceder a los datos principales que hay en el sistema operativo. Se debe tener en cuenta que el componente número uno se denomina aplicación, mientras que el número dos se llama “controlador de #[em software]” y, tal y como se puede ver, no tiene relación alguna con un dispositivo de #[em hardware].  A continuación, se muestra una aplicación en modo de usuario que se comunica con un controlador de #[em software] en modo kernel.
 
         .col-lg-4
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 3
+            br
+            span.fst-italic Aplicación en modo de usuario 
           figure
             img(src="@/assets/curso/temas/tema3/img7.svg", alt="alt")
 

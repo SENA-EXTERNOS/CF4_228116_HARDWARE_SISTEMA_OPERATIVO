@@ -37,14 +37,11 @@
       .col-lg-10
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/RjuFT03PSyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
-    separador
 
-    #t_1_1
-
-    .titulo-segundo.color-primario.my-5(data-aos="fade-left")
+    #t_1_1 
       h2 Sistemas operativos por servicios (visión externa):
 
     .row.mb-5
@@ -82,12 +79,11 @@
             p Por un lado, la forma asimétrica permite que el sistema operativo seleccione, entre los procesadores, cuál puede asumir el rol de un procesador maestro, el cual distribuirá la carga hacia los otros procesadores disponibles, que se denominan “esclavos”. Por otro lado, la forma simétrica se refiere a cuando los procesos o algunas de sus partes #[i (threads)] son distribuidos, de forma aleatoria, a los procesadores que se encuentran disponibles, es decir, todos los procesadores se encuentran en el mismo nivel y esto posibilita, de manera teórica, una distribución y un equilibrio en la carga de trabajo generada por las tareas o procesos que deben ejecutarse.
             p En este tipo de sistemas, es fundamental tener en cuenta cómo se crean las aplicaciones, dado que eso posibilita hacer uso de los procesadores que hay disponibles. Algunas de las aplicaciones que existen fueron creadas para ser utilizadas en sistemas monoproceso, por lo que, a menos de que existan secciones de código paralelizable, es decir, que se pueda ejecutar de forma simultánea, entonces usar un sistema multiproceso no significaría una ventaja.
 
-    separador
 
     #t_1_2
 
-    .titulo-segundo.color-primario.my-5(data-aos="fade-left")
-      h2 1.2 Sistemas operativos por la forma de ofrecer sus servicios
+    
+    h2 Sistemas operativos por la forma de ofrecer sus servicios
 
     .row.justify-content-center.mb-5
       .col-lg-10

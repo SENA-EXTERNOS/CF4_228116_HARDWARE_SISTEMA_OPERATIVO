@@ -23,8 +23,7 @@
           h5 Máquina virtual
           p La máquina virtual es un sistema virtual que incluye un sistema operativo y una aplicación de uso. Es importante recordar que cada máquina virtual es independiente, si en un computador se instalan diferentes máquinas virtuales se pueden ejecutar al mismo tiempo incluso utilizando un mismo servidor.
 
-    .titulo-segundo.color-primario.my-5(data-aos="fade-left")
-      h2 Tipos de virtualización
+    h2 Tipos de virtualización
 
     .row.mb-5
       p Existen dos tipos de virtualización, estos son:

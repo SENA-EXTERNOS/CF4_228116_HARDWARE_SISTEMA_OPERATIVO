@@ -20,7 +20,7 @@
 
             .col-lg-7.mt-3
               figure
-                img(src="@/assets/curso/temas/tema5/img1.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema5/img1.png", alt="alt")
 
           .row
             .col-lg-5.mt-5
@@ -31,8 +31,12 @@
 
 
             .col-lg-7.mt-3
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 4 
+                br
+                span.fst-italic Panel de control del sistema operativo Windows
               figure
-                img(src="@/assets/curso/temas/tema5/img2.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema5/img2.jpg", alt="alt")
 
           .row
             .col-lg-5.mt-5
