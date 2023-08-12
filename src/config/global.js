@@ -132,7 +132,7 @@ export default {
         'Tanenbaum, A. - (2009). <i>Sistemas operativos 3ra Edición.</i> Recuperado de ',
       tipo: 'Manual',
       link:
-        'http://www.uenicmlk.edu.ni/img/biblioteca/ing%20sistema%20%20Sistemas%20Operativos%20Modernos%20-%20Andrew%20S.%20Tanenbaum%20-%203ra%20Edicion.pdf ',
+        'https://apps4two.com/curso_dba/bibliografia/2-Sistemas%20operativos%20moderno%203ed%20Tanenbaum.pdf',
     },
     {
       tema:

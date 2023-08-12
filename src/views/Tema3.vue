@@ -54,126 +54,126 @@
               p Primero, debe realizar alguno de los siguientes pasos:
 
               ul.lista-ul--color.fa-ul
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Introduzca el DVD de herramientas y los controladores en la unidad de CD/DVD del computador. Si el disco se inicia de manera automática, entonces, debe cerrar el programa desde el ícono de cierre. Luego, desde el Explorador de Windows debe dirigirse a la carpeta “drivers\windows”.
+                  p.mb-0 Introduzca el DVD de herramientas y los controladores en la unidad de CD/DVD del computador. Si el disco se inicia de manera automática, entonces, debe cerrar el programa desde el ícono de cierre. Luego, desde el Explorador de Windows debe dirigirse a la carpeta “drivers\windows”.
 
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Si ha descargado el archivo denominado Windows.zip del sitio de descarga, entonces, debe extraerlo en una carpeta del computador de la estación de trabajo.
+                  p.mb-0 Si ha descargado el archivo denominado Windows.zip del sitio de descarga, entonces, debe extraerlo en una carpeta del computador de la estación de trabajo.
 
           .row(numero="2" titulo="Instalar los controladores de <em>chipset</em>")
             .col
               p Posteriormente, debe instalar los controladores de #[em chipset]:
 
               ul.lista-ul--color.fa-ul
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Abra la carpeta denominada “windows\chipset”, la cual corresponde a los controladores y se encuentra en el Explorador de Windows.
-                li
+                  p.mb-0 Abra la carpeta denominada “windows\chipset”, la cual corresponde a los controladores y se encuentra en el Explorador de Windows.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Debe ejecutar el archivo “.exe” para iniciar la instalación. Para ejecutarlo solo debe hacer doble clic en este.
-                li
+                  p.mb-0 Debe ejecutar el archivo “.exe” para iniciar la instalación. Para ejecutarlo solo debe hacer doble clic en este.
+                li.d-flex.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Asegúrese de seguir las instrucciones que van apareciendo para lograr la correcta instalación de los controladores del #[em chipset].
+                  p.mb-0 Asegúrese de seguir las instrucciones que van apareciendo para lograr la correcta instalación de los controladores del #[em chipset].
 
           .row(numero="3" titulo="Instalar el controlador Ethernet")
             .col
               p Para instalar el controlador Ethernet:
 
               ul.lista-ul--color.fa-ul
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Desde el Explorador de Windows, vaya a la carpeta de los controladores windows\nic. Haga doble clic en el archivo ejecutable .exe.
-                li
+                  p.mb-0 Desde el Explorador de Windows, vaya a la carpeta de los controladores windows\nic. Haga doble clic en el archivo ejecutable .exe.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Recuerde que debe seguir las instrucciones que van apareciendo en la pantalla para lograr la correcta instalación del controlador Ethernet.
+                  p.mb-0 Recuerde que debe seguir las instrucciones que van apareciendo en la pantalla para lograr la correcta instalación del controlador Ethernet.
 
           .row(numero="4" titulo="Instalar a partir del uso de Windows Device Manager")
             .col
               p El controlador se puede instalar a partir del uso de #[em Windows Device Manager]:
               ul.lista-ul--color.fa-ul
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Abra el #[em Device Manager].
-                li
+                  p.mb-0 Abra el #[em Device Manager].
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Haga clic con el botón secundario del ratón en el NIC con el signo de admiración amarillo (¡) y elija #[em Update Driver] (actualizar controlador).
-                li
+                  p.mb-0 Haga clic con el botón secundario del ratón en el NIC con el signo de admiración amarillo (¡) y elija #[em Update Driver] (actualizar controlador).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Seleccione #[em No, not at this time] (No en este momento) y haga clic en #[em Next] (Siguiente).
-                li
+                  p.mb-0 Seleccione #[em No, not at this time] (No en este momento) y haga clic en #[em Next] (Siguiente).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Seleccione #[em Install from a Windows Specific Location] (Instalar de una lista o ubicación específica) y, luego, haga clic en #[em Next] (Siguiente).
-                li
+                  p.mb-0 Seleccione #[em Install from a Windows Specific Location] (Instalar de una lista o ubicación específica) y, luego, haga clic en #[em Next] (Siguiente).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Haga clic en Examinar y vaya a la carpeta del controlador Ethernet de la estación de trabajo correspondiente. Por ejemplo:
-                li
+                  p.mb-0 Haga clic en Examinar y vaya a la carpeta del controlador Ethernet de la estación de trabajo correspondiente. Por ejemplo:
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | windows\nic\pro1000
-                li
+                  p.mb-0 windows\nic\pro1000
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Actualice el controlador Ethernet.
+                  p.mb-0 Actualice el controlador Ethernet.
 
           .row(numero="5" titulo="Instale el controlador TPM")
             .col
               ul.lista-ul--color.fa-ul
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Desde el Explorador de Windows, vaya a la carpeta windows\TPM\driver\app.
-                li
+                  p.mb-0 Desde el Explorador de Windows, vaya a la carpeta windows\TPM\driver\app.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Extraiga el archivo .zip.
-                li
+                  p.mb-0 Extraiga el archivo .zip.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Haga doble clic en el archivo “.exe”, el cual es un archivo ejecutable.
-                li
+                  p.mb-0 Haga doble clic en el archivo “.exe”, el cual es un archivo ejecutable.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Siga las instrucciones del asistente de la instalación para instalar el controlador TPM.
+                  p.mb-0 Siga las instrucciones del asistente de la instalación para instalar el controlador TPM.
 
           .row(numero="6" titulo="Instale el controlador Intel ME")
             .col
               p Instale el controlador Intel ME (usado como parte de la solución de gestión Intel ASF)
 
               ul.lista-ul--color.ps-3.fa-ul
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Desde el Explorador de Windows, vaya a la carpeta windows\me\driver.
-                li
+                  p.mb-0 Desde el Explorador de Windows, vaya a la carpeta windows\me\driver.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Haga doble clic en el archivo ejecutable .exe
-                li
+                  p.mb-0 Haga doble clic en el archivo ejecutable .exe
+                li.d-flex
                   i.fas.fa-circle.color-vineta1.fa-li
-                  | Siga las instrucciones del asistente de instalación para instalar el controlador Intel ME.
+                  p.mb-0 Siga las instrucciones del asistente de instalación para instalar el controlador Intel ME.
 
           .row(numero="7" titulo="Instale el controlador de vídeo NVIDIA Quadro FX")
             .col
               p Instale el controlador de vídeo NVIDIA Quadro FX:
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Abra el #[em Windows Device Manager].
-                li
+                  p.mb-0 Abra el #[em Windows Device Manager].
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Haga clic con el botón secundario del ratón en el controlador de pantalla y seleccione #[em Update] (Actualizar).
-                li
+                  p.mb-0 Haga clic con el botón secundario del ratón en el controlador de pantalla y seleccione #[em Update] (Actualizar).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Aparecerá el #[em Hardware Update Wizard] (Asistente para la actualización de #[em hardware]).
-                li
+                  p.mb-0 Aparecerá el #[em Hardware Update Wizard] (Asistente para la actualización de #[em hardware]).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Seleccione #[em No, not at this time] (No en este momento) y haga clic en #[em Next] (Siguiente).
-                li
+                  p.mb-0 Seleccione #[em No, not at this time] (No en este momento) y haga clic en #[em Next] (Siguiente).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | En el cuadro de diálogo siguiente, seleccione #[em Install from a Windows specific location] (Instalar de una lista o ubicación específica), y haga clic en #[em Next] (Siguiente).
-                li
+                  p.mb-0 En el cuadro de diálogo siguiente, seleccione #[em Install from a Windows specific location] (Instalar de una lista o ubicación específica), y haga clic en #[em Next] (Siguiente).
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Haga clic en #[em Browse] (Examinar) y vaya a la carpeta windows\video\ so\versión
-                li
+                  p.mb-0 Haga clic en #[em Browse] (Examinar) y vaya a la carpeta windows\video\ so\versión
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Haga doble clic en el archivo ejecutable .exe.
-                li
+                  p.mb-0 Haga doble clic en el archivo ejecutable .exe.
+                li.d-flex
                   i.fas.fa-circle.color-vineta1
-                  | Siga las instrucciones del asistente de la instalación para instalar el controlador de vídeo.
+                  p.mb-0 Siga las instrucciones del asistente de la instalación para instalar el controlador de vídeo.
 
           .row(numero="8" titulo="Instale el controlador de audio RealTek HD")
             ul.lista-ul--color
