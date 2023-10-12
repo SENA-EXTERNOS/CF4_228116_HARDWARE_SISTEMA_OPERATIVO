@@ -130,7 +130,7 @@ export default {
       tema: 'Sistemas operativos modernos ',
       referencia:
         'Tanenbaum, A. - (2009). <i>Sistemas operativos 3ra Edición.</i> Recuperado de ',
-      tipo: 'Manual',
+      tipo: 'Libro',
       link:
         'https://apps4two.com/curso_dba/bibliografia/2-Sistemas%20operativos%20moderno%203ed%20Tanenbaum.pdf',
     },
@@ -156,12 +156,12 @@ export default {
     {
       termino: '<i>Batch</i>',
       significado:
-        'en DOS, OS/2 y Microsoft Windows, un archivo batch es un archivo de procesamiento por lotes. Se trata de archivos de texto sin formato, guardados con la extensión .BAT que contienen un conjunto de instrucciones MS-DOS.',
+        'en DOS, OS/2 y Microsoft Windows, un archivo <em>batch</em> es un archivo de procesamiento por lotes. Se trata de archivos de texto sin formato, guardados con la extensión .BAT que contienen un conjunto de instrucciones MS-DOS.',
     },
     {
       termino: 'CPU',
       significado:
-        'CPU son las siglas de Central Processing <i>Unit</i>, lo que traducido significa “Unidad Central de Procesamiento”. Se trata de uno de los componentes vitales que se encuentran en el computador, el celular, la tableta e, incluso, en relojes y prácticamente cualquier dispositivo electrónico. Sin él simplemente no podrían funcionar',
+        ' CPU son las siglas de <em>Central Processing Unit</em>, lo que traducido significa “Unidad Central de Procesamiento”. Se trata de uno de los componentes vitales que se encuentran en el computador, el celular, la tableta e, incluso, en relojes y prácticamente cualquier dispositivo electrónico. Sin él simplemente no podrían funcionar',
     },
     {
       termino: 'Dispositivo',
@@ -181,7 +181,7 @@ export default {
     {
       termino: '<i>Kernel</i>',
       significado:
-        'el <i>Kernel</i> es definido como el núcleo o corazón del sistema operativo, y se encarga principalmente de mediar entre los procesos de usuario y el hardware disponible en la máquina, es decir, concede el acceso al hardware, al software que lo solicite, de una manera segura; y el procesamiento paralelo de varias tareas.',
+        'el <i>Kernel</i> es definido como el núcleo o corazón del sistema operativo, y se encarga principalmente de mediar entre los procesos de usuario y el <em>hardware</em> disponible en la máquina, es decir, concede el acceso al <em>hardware</em>, al <em>software</em> que lo solicite, de una manera segura; y el procesamiento paralelo de varias tareas.',
     },
     {
       termino: '<i>Microkernel</i>',

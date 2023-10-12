@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Dispositivos de infraestructura T.I.
+      h1 Dispositivos de infraestructura TI
 
     .row.mb-5
-      p Dentro de los dispositivos que conforman la infraestructura T.I, en sistemas operativos, se habla sobre el espacio de usuario que se describe a continuación:
+      p Dentro de los dispositivos que conforman la infraestructura TI, en sistemas operativos, se habla sobre el espacio de usuario que se describe a continuación:
 
 
     .row.mb-5
@@ -39,7 +39,7 @@
             .col-lg-8
               h5 Espacio de usuario
               p Se conforma por lo que está alrededor del #[em kernel]. Por ejemplo, cuando se utiliza el editor de texto, las configuraciones del sistema, la música que se reproduce, etc. Es la característica principal y final de un sistema operativo, donde cada usuario puede interactuar con cada máquina.
-              p Interactuando con el sistema operativo: al hacer uso de un sistema operativo se puede requerir la implementación de funciones como la creación de carpetas y archivos, el uso de ciertas aplicaciones, la eliminación de elementos, entre otras. Para cumplir estas tareas existen dos formas de interactuar con el sistema, a saber: un shell o una interfaz gráfica de usuario (GUI). A continuación, se describe cada una de ellas.
+              p Interactuando con el sistema operativo: al hacer uso de un sistema operativo se puede requerir la implementación de funciones como la creación de carpetas y archivos, el uso de ciertas aplicaciones, la eliminación de elementos, entre otras. Para cumplir estas tareas existen dos formas de interactuar con el sistema, a saber: un #[em shell] o una interfaz gráfica de usuario (GUI). A continuación, se describe cada una de ellas.
               p #[em Shell] o intérprete de comandos, corresponde a un programa que posibilita la interpretación de los comandos de textos, los cuales son enviados al sistema operativo para que este los ejecute. De esta forma, se genera un interfaz de usuario que permite a la persona acceder a los servicios que ofrece el sistema operativo.
               p GUI #[em (Graphical User Interface)]: corresponde a una forma de interacción con el computador basada en lo visual. Esto puede verse, por ejemplo, en el funcionamiento del ratón, el cual puede verse en la pantalla con el fin de identificar un elemento, arrastrarlo, abrirlo, modificarlo, entre otros.
 

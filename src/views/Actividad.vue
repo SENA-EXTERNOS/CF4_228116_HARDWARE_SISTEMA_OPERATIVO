@@ -9,7 +9,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Hardware y sistema operativo
+          h2 #[em Hardware] y sistema operativo
 
         p.mt-5 Estimado aprendiz, a continuación, encontrará una actividad didáctica donde deberá relacionar el concepto con su respectiva definición.
         p.mb-4 ¡Mucha suerte!
@@ -18,7 +18,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

@@ -55,15 +55,15 @@
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris2")
           .row(titulo="Por número de usuarios")
-            h5.mb-3 Sistema operativo monousuario.
+            h5.mb-3 Sistema operativo monousuario
             p.mb-4 Los monousuarios son los que manejan un usuario a la vez, no tienen en cuenta el número de procesadores que tenga el ordenador o quizás los diferentes procesos o actividades donde el usuario lo pueda utilizar de forma simultánea. Esta denominación incluye todos aquellos sistemas que solo permiten el ingreso mediante un usuario único.
 
-            h5.mb-3 Sistema operativo multiusuario.
+            h5.mb-3 Sistema operativo multiusuario
             p Los sistemas operativos multiusuarios permiten brindar servicios a diferentes usuarios a la vez, diferentes terminales conectadas al computador o utilizando varias actividades remotas en una red de comunicaciones. En estos sistemas no se tienen en cuenta los procesadores en la máquina ni el número de procesos que cada usuario puede ejecutar de forma paralela con otros programas.
             p Dentro de esta categoría se tienen en cuenta aquellos usuarios que pueden tener acceso a más de dos usuarios.
 
           .row(titulo="Por el número de tareas")
-            h5.mb-3 Sistema operativo monotarea.
+            h5.mb-3 Sistema operativo monotarea
             p.mb-4 En este tipo de sistemas se incluyen todos los que tienen una restricción de solo una tarea a la vez por cada usuario. En ese sentido, es posible que un sistema multiusuario sea monotarea, es decir, puede tener varios usuarios simultáneos; sin embargo, cada uno solo podrá ejecutar una tarea y no podrá tener varias tareas paralelas.
             h5.mb-3 Sistema operativo multitarea.
             p Tal y como se indica en su nombre, este tipo de sistema permite realizar varias tareas de forma simultánea. Cabe resaltar que, actualmente, la mayoría de los sistemas operativos tienen esta función, dado que los computadores pueden realizar múltiples procesos, correspondientes a diversas tareas, en un mismo instante.
@@ -72,9 +72,9 @@
             p  La multitarea suele trabajar en conjunto con el soporte de #[i hardware] y #[i software], con la finalidad de proteger la memoria y evitar que los procesos interfieran el espacio de direcciones y el comportamiento de otros procesos residentes.
 
           .row(titulo="Por el número de procesadores")
-            h5.mb-3 Sistema operativo de uniproceso.
+            h5.mb-3 Sistema operativo de uniproceso
             p.mb-4 Este tipo de sistema posibilita el manejo de un solo procesador en el computador. En ese sentido, si hay más procesadores no es posible utilizarlos. Dentro de estos sistemas operativos se encuentran DOS y MacOs.
-            h5.mb-3 Sistema operativo de multiproceso.
+            h5.mb-3 Sistema operativo de multiproceso
             p En este sistema operativo se tienen dos o más procesadores en el computador, los cuales pueden ser utilizados de forma simultánea con el objetivo de distribuir los procesos que se realizan. Estos sistemas se pueden ejecutar de manera asimétrica o simétrica.
             p Por un lado, la forma asimétrica permite que el sistema operativo seleccione, entre los procesadores, cuál puede asumir el rol de un procesador maestro, el cual distribuirá la carga hacia los otros procesadores disponibles, que se denominan “esclavos”. Por otro lado, la forma simétrica se refiere a cuando los procesos o algunas de sus partes #[i (threads)] son distribuidos, de forma aleatoria, a los procesadores que se encuentran disponibles, es decir, todos los procesadores se encuentran en el mismo nivel y esto posibilita, de manera teórica, una distribución y un equilibrio en la carga de trabajo generada por las tareas o procesos que deben ejecutarse.
             p En este tipo de sistemas, es fundamental tener en cuenta cómo se crean las aplicaciones, dado que eso posibilita hacer uso de los procesadores que hay disponibles. Algunas de las aplicaciones que existen fueron creadas para ser utilizadas en sistemas monoproceso, por lo que, a menos de que existan secciones de código paralelizable, es decir, que se pueda ejecutar de forma simultánea, entonces usar un sistema multiproceso no significaría una ventaja.

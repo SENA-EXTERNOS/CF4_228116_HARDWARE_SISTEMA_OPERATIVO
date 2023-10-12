@@ -13,7 +13,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.svg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Cuando se habla de servidores se conocen como computadores que siempre proveen un servicio a un cliente en especial o varios clientes. Entonces, quiere decir que son equipos de alta disponibilidad comparten recursos tanto de #[em hardware] como de #[em software]. Cabe resaltar que ningún equipo tiene la posibilidad de trabajar si no tiene un sistema operativo. En ese mismo sentido, cuando existe una red de equipos esta no se puede utilizar si no se tiene un sistema operativo de red. Debido a lo anterior, es necesario que exista un equipo con estos sistemas con el fin de garantizar una gestión centralizada de los recursos, lo cual también se conoce como un “grupo de trabajo”.
+          p.mb-0 Cuando se habla de servidores se conocen como computadores que siempre proveen un servicio a un cliente en especial o varios clientes. Entonces, quiere decir que son equipos de alta disponibilidad que comparten recursos tanto de #[em hardware] como de #[em software]. Cabe resaltar que ningún equipo tiene la posibilidad de trabajar si no tiene un sistema operativo. En ese mismo sentido, cuando existe una red de equipos esta no se puede utilizar si no se tiene un sistema operativo de red. Debido a lo anterior, es necesario que exista un equipo con estos sistemas con el fin de garantizar una gestión centralizada de los recursos, lo cual también se conoce como un “grupo de trabajo”.
 
     .row.mb-5
       p Uno de los trabajos más importantes en el área es determinar la configuración que tenga una mejor adaptación a las necesidades que la red presente. En términos de red se identifican dos componentes:
@@ -39,7 +39,7 @@
     h2 Instalación
 
     .row.mb-5
-      p A continuación, se describe el paso a paso de instalación de drivers:
+      p A continuación, se describe el paso a paso de instalación de #[em drivers]:
       p Aquí se presenta el procedimiento para instalar, de forma manual, los controladores que se requieren en una estación de trabajo.
 
     .row.justify-content-center.mb-5
@@ -89,7 +89,7 @@
                   i.fas.fa-circle.color-vineta1.fa-li
                   p.mb-0 Recuerde que debe seguir las instrucciones que van apareciendo en la pantalla para lograr la correcta instalación del controlador Ethernet.
 
-          .row(numero="4" titulo="Instalar a partir del uso de Windows Device Manager")
+          .row(numero="4" titulo="Instalar a partir del uso de <em>Windows Device Manager</em>")
             .col
               p El controlador se puede instalar a partir del uso de #[em Windows Device Manager]:
               ul.lista-ul--color.fa-ul

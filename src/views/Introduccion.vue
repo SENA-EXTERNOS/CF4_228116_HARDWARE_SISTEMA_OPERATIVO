@@ -21,9 +21,9 @@
                 .row
                   .col-lg-2
                   .col-lg-10
-                    p Aprendiz, esta etapa está diseñada para que aprenda e identifique de manera clara y precisa cómo funcionan estos subsistemas operativos en cada computador y los componentes que lo conforman dentro de los sistemas de infraestructura T.I.
+                    p Aprendiz, esta etapa está diseñada para que aprenda e identifique de manera clara y precisa cómo funcionan estos subsistemas operativos en cada computador y los componentes que lo conforman dentro de los sistemas de infraestructura TI.
                     p El sistema operativo se describe como la parte que conforma el #[em software] donde se dirige y se coordinan todas esas aplicaciones y servicios que cada usuario dispondrá a utilizar en cada computador. Por esta razón, es fundamental e importante el sistema operativo, debido a que se trata de aquellos programas que permiten controlar los aspectos esenciales del sistema.
-                    p Este término se asocia al nombre de #[em kernels] o núcleos, donde se ejecuta de forma privilegiada en comparación a lo que comprende el resto de #[em software], sin dejar que cualquier programa vaya a modificar la configuración sobre el que genere un daño en su funcionamiento actual.
+                    p Este término se asocia al nombre de #[em kernel] o núcleo, donde se ejecuta de forma privilegiada en comparación a lo que comprende el resto de #[em software], sin dejar que cualquier programa vaya a modificar la configuración sobre el que genere un daño en su funcionamiento actual.
 
 
     .row.justify-content-center.mb-5
